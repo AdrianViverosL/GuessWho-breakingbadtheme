@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3c.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+
+	<head>
+		<script src="js/jquery.js"></script>
+		<script src="js/load1.js"></script>
+		<meta http-equiv="Content-Type"
+		content="text/html; charset=utf-8" />
+		<title> Pregunta Quien? Usuario! </title>
+	</head>
+	<body style="background-color:MediumSeaGreen;">
+
+		<div id = "personajes" style="text-align: left;">
+			<h1>Breaking Bad!</h1>
+					<img src="walter.jpg" alt="Walter White" style="width:100px;height:150px;">
+					<img src="skyler.jpg" alt="Skyler White" style="width:100px;height:150px;">
+					<img src="saul.jpg" alt="Saul Goodman" style="width:100px;height:150px;">
+					<img src="mike.jpg" alt="Mike Ehrmantraut" style="width:100px;height:150px;"></br>
+					<img src="hank.jpg" alt="Hank Schrader" style="width:100px;height:150px;">
+					<img src="skinny.jpg" alt="Skinny Pete" style="width:100px;height:150px;">
+					<img src="walterjr.jpg" alt="Walter Jr." style="width:100px;height:150px;">
+					<img src="tuco.jpg" alt="Tuco Salamanca" style="width:100px;height:150px;"></br>
+					<img src="hector.jpg" alt="Don Hector Salamanca" style="width:100px;height:150px;">
+					<img src="jesse.jpg" alt="Jesse Pinkman" style="width:100px;height:150px;">
+					<img src="jane.jpg" alt="Jane" style="width:100px;height:150px;">
+					<img src="gus.jpg" alt="Gustavo Fring" style="width:100px;height:150px;"></br>
+		</div>
+
+		<span id ="nombres" style="text-align: right;">
+			Si crees saber las respuesta introduce el nombre del personaje como se muestra:
+			<ul>
+				<li>Walter White</li>
+				<li>Gustavo Fring</li>
+				<li>Mike Ermantrahut</li>
+				<li>Skinny Pete</li>
+				<li>Hank Schrader</li>
+				<li>Walter Jr.</li>
+				<li>Tuco Salamanca</li>
+				<li>Don Hector Salamanca</li>
+				<li>Jesse Pinkman</li>
+				<li>Saul Goodman</li>
+				<li>Skyler White</li>
+				<li>Jane</li>
+			</ul>
+		</span>	
+
+		<div id="juego"></div>
+		<div>
+			Ingresa aquí tu respuesta:
+			<input type ="text" id="respuesta" value="">
+			<input type = "button" id="enviar" value="Enviar" onclick= "validateAnswer();">
+		</div>
+	</body>
+</html>
